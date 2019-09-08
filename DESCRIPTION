@@ -1,0 +1,5 @@
+Package: app
+Imports:
+    pdftools,
+    dplyr,
+    purrr
