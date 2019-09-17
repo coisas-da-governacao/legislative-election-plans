@@ -2,4 +2,6 @@ Package: app
 Imports:
     pdftools,
     dplyr,
-    purrr
+    purrr,
+    stringr,
+    tm

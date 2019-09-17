@@ -8,6 +8,11 @@ Source: CRAN
 Version: 1.69.0-1
 Hash: 15f597ed227897f4f793b6161260f4b9
 
+Package: NLP
+Source: CRAN
+Version: 0.2-0
+Hash: 660c32b070874e08a4d2abaeb3e82443
+
 Package: R6
 Source: CRAN
 Version: 2.4.0
@@ -127,6 +132,22 @@ Source: CRAN
 Version: 0.4.0
 Hash: eabda67321fe1d477ea641ddd5d84f00
 
+Package: slam
+Source: CRAN
+Version: 0.1-45
+Hash: 853ab9e3d2ffa5f655ab1d3696c941c3
+
+Package: stringi
+Source: CRAN
+Version: 1.4.3
+Hash: ed2a82fc7cc668c1345223d938cdfaf2
+
+Package: stringr
+Source: CRAN
+Version: 1.4.0
+Hash: 67da32dbb2a7a16f2ef124336358e54a
+Requires: glue, magrittr, stringi
+
 Package: sys
 Source: CRAN
 Version: 3.3
@@ -144,6 +165,12 @@ Version: 0.2.5
 Hash: 9ab4ed03f4b7bbdbd1db9d7a920aae1a
 Requires: Rcpp, glue, purrr, rlang
 
+Package: tm
+Source: CRAN
+Version: 0.7-6
+Hash: cecf3a5d97acaa98277759fd0dd86ef4
+Requires: BH, NLP, Rcpp, slam, xml2
+
 Package: utf8
 Source: CRAN
 Version: 1.1.4
@@ -154,6 +181,12 @@ Source: CRAN
 Version: 0.2.0
 Hash: daf77cb3dbcacd7fb619cb3748dc215f
 Requires: backports, digest, ellipsis, glue, rlang, zeallot
+
+Package: xml2
+Source: CRAN
+Version: 1.2.2
+Hash: c5258a3beb15da46d4682eda667bf5ec
+Requires: Rcpp
 
 Package: zeallot
 Source: CRAN
